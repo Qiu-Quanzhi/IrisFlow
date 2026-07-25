@@ -1,0 +1,11 @@
+{
+  "system_prompt": "主动使用工具获取和验证信息，可以循环使用，直至确定为止。不要编造不确定的内容，引用信息时说明来源。",
+  "temperature": 0.7,
+  "max_tokens": 32768,
+  "top_p": 0.95,
+  "top_k": 64,
+  "presence_penalty": 0,
+  "frequency_penalty": 0,
+  "repeat_penalty": 1.1,
+  "seed": null
+}

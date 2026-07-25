@@ -1,0 +1,64 @@
+# 环境变量（包含密钥，绝对不能上传）
+.env
+.env.local
+.env.*.local
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+node_modules/
+
+# uv 包管理器
+.uv/
+
+# Claude Code（skills 目录除外）
+.claude/*
+!.claude/skills/
+
+# IDE 配置（VSCode / PyCharm）
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+.DS_Store
+
+# 日志文件
+*.log
+
+# 数据库
+*.db
+*.sqlite3
+.prism_data/
+.pipeline_data/
+
+# 密钥文件（绝对不能上传）
+backend/data/secrets.json
+
+# 端口分配（动态探测结果）
+.ports.json
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+.playwright-mcp
+
+# 打包文件
+*.egg-info/
+dist/
+build/
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+ehthumbs.db

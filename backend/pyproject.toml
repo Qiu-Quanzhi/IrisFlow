@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "1.0.0"
+description = "IrisFlow 后端服务 — LLM Chat + Agent 控制台"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.138.2",
+    "httpx>=0.28.0",
+    "markitdown[docx,pdf,pptx,xls,xlsx]>=0.1.6",
+    "trafilatura>=2.1.0",
+]
+[tool.fastapi]
+entrypoint = "main:app"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.411",
+]

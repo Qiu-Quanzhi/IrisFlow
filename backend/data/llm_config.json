@@ -1,0 +1,6 @@
+{
+  "base_url": "http://localhost:1234/v1",
+  "auth_token": "${LLM_TOKEN}",
+  "model": "google/gemma-4-12b-qat",
+  "max_concurrent": 2
+}
