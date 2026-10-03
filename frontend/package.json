@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-free": "^7.3.1",
     "highlight.js": "^11.11.1",
     "katex": "^0.18.1",
-    "markdown-it": "^14.3.0",
+    "markdown-it": "^14.3.1",
     "markdown-it-texmath": "^1.0.0",
     "vue": "^3.5.40",
     "vue-router": "^5.2.0"
